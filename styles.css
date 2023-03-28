@@ -1,8 +1,10 @@
 * {
-    font-style: 'roboto', Helvetica, Times;
+    font-family: 'Roboto';
+    color: #e7e5eb;
 }
 .hero {
     background-color: #1f2937;
+    color: #e5e7eb;
 }
 .heromain {
     font-size: 48px;
@@ -11,6 +13,7 @@
 }
 .herosecond {
     font-size: 18px;
+    color: #e7e5eb
 }
 .heroheader {
     font-size: 24px;
