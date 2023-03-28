@@ -1,0 +1,31 @@
+* {
+    font-style: 'roboto', Helvetica, Times;
+}
+.hero {
+    background-color: #1f2937;
+}
+.heromain {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.herosecond {
+    font-size: 18px;
+}
+.heroheader {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.bodyheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quotetext {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
