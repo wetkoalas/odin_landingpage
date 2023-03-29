@@ -37,13 +37,23 @@
 }
 .headbox {
     display:flex;
+    flex:auto;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 .herobox {
     display:flex;
+    flex-direction: row;
+    flex:auto
 }
 .bodybox{
     display:flex;
+    flex-direction: row;
+    flex:auto
 }
 .callbox {
     display:flex;
+    flex-direction: row;
+    flex:auto
 }
