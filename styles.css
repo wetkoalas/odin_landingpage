@@ -10,13 +10,13 @@
     display:flex;
     flex:auto;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 .head.left {
     font-size: 24px;
-    color:#f9faf8
-    display: flex;
-    padding-left: 20px;
+    color:#f9faf8;
+    display:flex;
+    padding-left:20px;
 }
 .head.right {
     font-size: 18px;
@@ -33,11 +33,10 @@
     color: #e5e7eb;
     display:flex;
     flex-direction: row;
-    flex:auto
-}
-.hero.header {
-    font-size: 24px;
-    color: #f9faf8;
+    flex:auto;
+    justify-content: space-around;
+    padding-left:20px;
+    padding-right:20px;
 }
 .hero.main {
     font-size: 48px;
@@ -55,20 +54,21 @@
     flex-direction: row;
     flex:auto
 }
-.body.header {
+.bodyheader {
     font-size: 36px;
     font-weight: bolder;
     color:#1f2937;
 }
-.body.quote {
+.quote {
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
     font-weight: 250;
 }
-.body.call {
+.call {
     background-color: #3882f6;
     display:flex;
     flex-direction: row;
     flex:auto
 }
+
