@@ -1,58 +1,73 @@
+/* FALLBACKS */
 * {
-    font-family: 'Roboto';
+    font-family:'Roboto';
     color: #e7e5eb;
 }
-.hero {
-    background-color: #1f2937;
-    color: #e5e7eb;
-}
-.heromain {
-    font-size: 48px;
-    font-weight:bolder;
-    color:#f9faf8;
-}
-.herosecond {
-    font-size: 18px;
-    color: #e7e5eb
-}
-.heroheader {
-    font-size: 24px;
+/* HEADBOX AND LINKS */
+.head {
     color: #f9faf8;
-}
-.bodyheader {
-    font-size: 36px;
-    font-weight: bolder;
-    color:#1f2937;
-}
-.quote {
-    background-color: #e5e7eb;
-}
-.quotetext {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-}
-.calltoaction {
-    background-color: #3882f6;
-}
-.headbox {
+    background-color: #1f2937;
     display:flex;
     flex:auto;
     flex-direction: row;
     justify-content: space-between;
 }
+.head.left {
+    font-size: 24px;
+    color:#f9faf8
+    display: flex;
+    padding-left: 20px;
+}
+.head.right {
+    font-size: 18px;
+    color:#e5e7eb;
+    display:flex;
+    flex-direction: row;
+    padding-right: 20px;
 
-.herobox {
+}
+
+/* HERO */
+.hero {
+    background-color: #1f2937;
+    color: #e5e7eb;
     display:flex;
     flex-direction: row;
     flex:auto
 }
-.bodybox{
+.hero.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.hero.main {
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+}
+.hero.second {
+    font-size: 18px;
+    color: #e7e5eb
+}
+
+/* BODY */
+.body {
     display:flex;
     flex-direction: row;
     flex:auto
 }
-.callbox {
+.body.header {
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+.body.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 250;
+}
+.body.call {
+    background-color: #3882f6;
     display:flex;
     flex-direction: row;
     flex:auto
